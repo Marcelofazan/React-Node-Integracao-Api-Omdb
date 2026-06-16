@@ -2,12 +2,14 @@
 Exemplo de Integração OMDb Api em Node.js e React com banco de dados SQL-Server.
 
 #### 📋 O que voçê vai ver nesse Projeto
-.env
-LocalStorage
-Jest
-JWT
-Swagger 
 
+| HOST | URL |
+|-----------|-----------|
+| .env | Gerenciar variáveis de ambiente, garantindo segurança (não expor senhas/chaves) e flexibilidade entre ambientes (desenvolvimento, produção)|
+| LocalStorage | Armazenamento em cache de dados no navegador de forma persistente em pares de chave e valor |
+| Jest | Ferramenta framework de testes |
+| JWT | É um crachá digital usado para identificar usuários e trocar informações de forma segura entre computadores |
+| Swagger | Criar, documentar e consumir APIs RESTful. |
 
 📁 Requisitos do Projeto
 Necessário Habilitar TCP/IP no SQLServer Configuration Manager 
@@ -49,21 +51,20 @@ npx tsx src/test-db.ts
 npx tsx src/index.ts 
 ```
 
-http://localhost:3000/
-http://localhost:3000/api-docs/
-http://localhost:3000/api/ping
-http://localhost:3000/api/test-db
-http://localhost:3000/api/health
-http://localhost:3000/api/auth/register
-http://localhost:3000/api/auth/login
-
+| HOST | URL |
+|-----------|-----------|
+| Metodo: GET | http://localhost:3000/ |
+| Metodo: GET | http://localhost:3000/api-docs/ |
+| Metodo: GET | http://localhost:3000/api/ping |
+| Metodo: GET | http://localhost:3000/api/test-db |
+| Metodo: GET | http://localhost:3000/api/health |
+| Metodo: POST | http://localhost:3000/api/auth/register |
+| Metodo: POST | http://localhost:3000/api/auth/login |
 
 VSCode Terminal [2]
 //Frontend 
 npm run dev
 http://localhost:5173/
-
-
 
 #### 🧪 Executar Jest e Postman 
 VSCode Terminal [3]

@@ -54,8 +54,6 @@ npx tsx src/index.ts
 | Metodo: GET | http://localhost:3000/api/ping |
 | Metodo: GET | http://localhost:3000/api/test-db |
 | Metodo: GET | http://localhost:3000/api/health |
-| Metodo: POST | http://localhost:3000/api/auth/register |
-| Metodo: POST | http://localhost:3000/api/auth/login |
 
 #### 📁 Frontend 
 VSCode Terminal [2]

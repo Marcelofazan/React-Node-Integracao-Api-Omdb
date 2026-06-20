@@ -17,7 +17,7 @@ Criar usuario no site API OMDb e copiar o **Chave Key** para poder fazer consult
 
 #### 🔄 Executar a aplicação
 
-#### 📁 Backend
+## 📁 Backend
 VSCode Terminal [1]
 ```bash
 npm install 
@@ -39,7 +39,7 @@ npx tsx src/index.ts
 | **Conexão** | http://localhost:3000/api/test-db |
 | **Health** | http://localhost:3000/api/health |
 
-#### 📁 Frontend 
+## 📁 Frontend 
 VSCode Terminal [2]
 ```bash
 npm run dev

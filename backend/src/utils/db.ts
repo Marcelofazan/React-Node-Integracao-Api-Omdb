@@ -6,7 +6,7 @@ dotenv.config();
 const config: sql.config = {
     server: process.env.DB_HOST || 'localhost',
     port: parseInt(process.env.DB_PORT || '1433'),
-    database: process.env.APP_DATABASE || 'FilmTodosDB',  // Now using FilmTodosDB
+    database: process.env.APP_DATABASE || 'FilmesDB',  
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     options: {
@@ -19,7 +19,7 @@ let connectionPool: sql.ConnectionPool | null = null;
 export const connectDB = async () => {
     if (!connectionPool) {
         connectionPool = await sql.connect(config);
-        console.log('✅ Connected to FilmTodosDB');
+        console.log('✅ Connected to FilmesDB');
     }
     return connectionPool;
 };

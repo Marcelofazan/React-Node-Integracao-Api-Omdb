@@ -14,7 +14,6 @@ Exemplo de integração com Api OMDb em React e Node.js com autenticação Jwt e
 
 Criar usuario no site API OMDb e copiar o **Chave Key** para poder fazer consultas da API
 - [OMDb API](https://www.omdbapi.com/)
-- 
 
 #### 🔄 Executar a aplicação
 
